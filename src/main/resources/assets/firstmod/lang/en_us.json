@@ -2,5 +2,7 @@
   "item.firstmod.coin": "Coin",
   "item.firstmod.ruby": "Ruby",
 
+  "block.firstmod.ruby_block": "Ruby Block",
+
   "creativetab.first_tab": "First Tab"
 }

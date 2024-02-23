@@ -1,6 +1,7 @@
 package net.jotas.firstmod.item;
 
 import net.jotas.firstmod.FirstMod;
+import net.jotas.firstmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,8 +19,11 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItens.RUBY.get()))
                     .title(Component.translatable("creativetab.first_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+
                         output.accept(ModItens.COIN.get());
                         output.accept(ModItens.RUBY.get()); //Add custom item
+
+                        output.accept(ModBlocks.RUBY_BLOCK.get()); //Add custom block
 
                         output.accept(Items.DIAMOND_HOE); //Add vanilla item
                     })

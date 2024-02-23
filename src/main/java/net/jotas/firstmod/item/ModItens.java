@@ -11,6 +11,7 @@ public class ModItens {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
 
+    //Just copy this for more Items
     public static final RegistryObject<Item> COIN = ITEMS.register("coin",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",

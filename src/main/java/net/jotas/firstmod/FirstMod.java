@@ -1,6 +1,7 @@
 package net.jotas.firstmod;
 
 import com.mojang.logging.LogUtils;
+import net.jotas.firstmod.block.ModBlocks;
 import net.jotas.firstmod.item.ModCreativeModTabs;
 import net.jotas.firstmod.item.ModItens;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,7 +29,9 @@ public class FirstMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
+
         ModItens.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
