@@ -3,6 +3,7 @@
   "item.firstmod.ruby": "Ruby",
 
   "block.firstmod.ruby_block": "Ruby Block",
+  "block.firstmod.raw_ruby_block": "Raw Ruby Block",
 
   "creativetab.first_tab": "First Tab"
 }
