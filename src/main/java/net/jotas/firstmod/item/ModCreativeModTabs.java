@@ -24,7 +24,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItens.RUBY.get()); //Add custom item
 
                         output.accept(ModBlocks.RUBY_BLOCK.get()); //Add custom block
-                        output.accept(ModBlocks.RAW_RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_ORE.get());
 
                         output.accept(Items.DIAMOND_HOE); //Add vanilla item
                     })
