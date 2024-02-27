@@ -2,6 +2,8 @@
   "item.firstmod.coin": "Coin",
   "item.firstmod.ruby": "Ruby",
 
+  "item.firstmod.gems_detector": "Gems Detector",
+
   "block.firstmod.ruby_block": "Ruby Block",
   "block.firstmod.ruby_ore": "Ruby Ore",
 
