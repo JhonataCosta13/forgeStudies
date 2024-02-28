@@ -1,6 +1,7 @@
 package net.jotas.firstmod.item;
 
 import net.jotas.firstmod.FirstMod;
+import net.jotas.firstmod.item.custom.FuelItem;
 import net.jotas.firstmod.item.custom.GemsDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,10 @@ public class ModItens {
     //Food Items
     public static final RegistryObject<Item> DONUT = ITEMS.register("donut",
             () -> new Item(new Item.Properties().food(ModFoods.DONUT)));
+
+    //Fuel Items
+    public static final RegistryObject<Item> GASOLINE = ITEMS.register("gasoline",
+            () -> new FuelItem(new Item.Properties(), 400)); //burnTime is in ticks, 400 = 20 seconds
 
     //Advanced Items
     public static final RegistryObject<Item> GEMS_DETECTOR = ITEMS.register("gems_detector",

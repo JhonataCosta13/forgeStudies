@@ -1,9 +1,12 @@
 {
   "item.firstmod.coin": "Coin",
   "item.firstmod.ruby": "Ruby",
+
   "item.firstmod.donut": "DONUT",
 
   "item.firstmod.gems_detector": "Gems Detector",
+
+  "item.firstmod.gasoline": "Gasoline",
 
   "block.firstmod.ruby_block": "Ruby Block",
   "block.firstmod.ruby_ore": "Ruby Ore",
