@@ -29,6 +29,7 @@ public class ModCreativeModTabs {
                         //Add custom block
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
 
                         //Add vanilla item
                         output.accept(Items.DIAMOND_HOE);

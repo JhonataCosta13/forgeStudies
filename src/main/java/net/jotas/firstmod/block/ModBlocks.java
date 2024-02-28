@@ -1,6 +1,7 @@
 package net.jotas.firstmod.block;
 
 import net.jotas.firstmod.FirstMod;
+import net.jotas.firstmod.block.custom.SoundBlock;
 import net.jotas.firstmod.item.ModItens;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -25,11 +26,13 @@ public class ModBlocks {
     //Just copy this for more Blocks
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST))); //Use "of" for custom properties
-
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE) //When you mine ore it drops exp, that's why DropExperienceBlock
                     .strength(2f) //Defines the block thoughness
                     .requiresCorrectToolForDrops(), UniformInt.of(3, 6))); //We will get between 3 and 6 exp orbs
+    //Custom block classes
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
