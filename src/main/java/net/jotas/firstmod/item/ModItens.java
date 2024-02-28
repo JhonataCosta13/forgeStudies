@@ -18,7 +18,11 @@ public class ModItens {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
 
-    //Custom item classes
+    //Food Items
+    public static final RegistryObject<Item> DONUT = ITEMS.register("donut",
+            () -> new Item(new Item.Properties().food(ModFoods.DONUT)));
+
+    //Advanced Items
     public static final RegistryObject<Item> GEMS_DETECTOR = ITEMS.register("gems_detector",
             () -> new GemsDetectorItem(new Item.Properties().durability(100))); //This item can be use 100 times
 

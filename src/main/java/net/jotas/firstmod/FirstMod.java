@@ -43,7 +43,7 @@ public class FirstMod {
     }
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItens.COIN);
+            event.accept(ModItens.COIN); //Adding to a minecraft no modded tab
             event.accept(ModItens.RUBY);
         }
     }

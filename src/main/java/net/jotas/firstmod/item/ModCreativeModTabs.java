@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItens.COIN.get());
                         output.accept(ModItens.RUBY.get());
                         output.accept(ModItens.GEMS_DETECTOR.get());
+                        output.accept(ModItens.DONUT.get());
 
                         //Add custom block
                         output.accept(ModBlocks.RUBY_BLOCK.get());
