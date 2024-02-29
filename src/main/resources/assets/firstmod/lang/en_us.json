@@ -12,5 +12,10 @@
   "block.firstmod.ruby_ore": "Ruby Ore",
   "block.firstmod.sound_block": "Sound Block",
 
+  "tooltip.firstmod.gems_detector.tooltip": "Find rubies and diamonds.",
+  "tooltip.firstmod.fuel_item.tooltip": "Can be used as a fuel in the furnace or blaster.",
+
+  "tooltip.firstmod.sound_block.tooltip": "Makes sound when right-clicked.",
+
   "creativetab.first_tab": "First Tab"
 }
