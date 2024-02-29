@@ -1,6 +1,7 @@
 package net.jotas.firstmod.item.custom;
 
 import net.jotas.firstmod.block.ModBlocks;
+import net.jotas.firstmod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -62,7 +63,10 @@ public class GemsDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(ModBlocks.RUBY_ORE.get()) || state.is(ModBlocks.RUBY_BLOCK.get()) //Custom Blocks
-                || state.is(Blocks.DIAMOND_ORE) || state.is(Blocks.DIAMOND_BLOCK) || state.is(Blocks.DEEPSLATE_DIAMOND_ORE); //Vanilla Blocks
+        /*return state.is(ModBlocks.RUBY_ORE.get()) || state.is(ModBlocks.RUBY_BLOCK.get()) //Custom Blocks
+                || state.is(Blocks.DIAMOND_ORE) || state.is(Blocks.DIAMOND_BLOCK) || state.is(Blocks.DEEPSLATE_DIAMOND_ORE); //Vanilla Blocks*/
+
+        //Using TAGS
+        return state.is(ModTags.Blocks.GEMS_DETECTOR_VALUABLES);
     }
 }
