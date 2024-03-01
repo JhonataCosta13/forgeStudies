@@ -3,7 +3,7 @@ package net.jotas.firstmod;
 import com.mojang.logging.LogUtils;
 import net.jotas.firstmod.block.ModBlocks;
 import net.jotas.firstmod.item.ModCreativeModTabs;
-import net.jotas.firstmod.item.ModItens;
+import net.jotas.firstmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,7 +30,7 @@ public class FirstMod {
 
         ModCreativeModTabs.register(modEventBus);
 
-        ModItens.register(modEventBus);
+        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -43,8 +43,8 @@ public class FirstMod {
     }
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItens.COIN); //Adding to a minecraft no modded tab
-            event.accept(ModItens.RUBY);
+            event.accept(ModItems.COIN); //Adding to a minecraft no modded tab
+            event.accept(ModItems.RUBY);
         }
     }
 

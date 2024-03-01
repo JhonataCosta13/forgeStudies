@@ -2,7 +2,6 @@ package net.jotas.firstmod.item;
 
 import net.jotas.firstmod.FirstMod;
 import net.jotas.firstmod.block.ModBlocks;
-import net.jotas.firstmod.item.custom.GemsDetectorItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,16 +16,16 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FirstMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> FIRST_TAB = CREATIVE_MODE_TABS.register("first_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItens.RUBY.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
                     .title(Component.translatable("creativetab.first_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
 
                         //Add custom item
-                        output.accept(ModItens.COIN.get());
-                        output.accept(ModItens.RUBY.get());
-                        output.accept(ModItens.GEMS_DETECTOR.get());
-                        output.accept(ModItens.DONUT.get());
-                        output.accept(ModItens.GASOLINE.get());
+                        output.accept(ModItems.COIN.get());
+                        output.accept(ModItems.RUBY.get());
+                        output.accept(ModItems.GEMS_DETECTOR.get());
+                        output.accept(ModItems.DONUT.get());
+                        output.accept(ModItems.GASOLINE.get());
 
                         //Add custom block
                         output.accept(ModBlocks.RUBY_BLOCK.get());
