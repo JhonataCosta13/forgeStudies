@@ -29,7 +29,6 @@ public class FirstMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
-
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 

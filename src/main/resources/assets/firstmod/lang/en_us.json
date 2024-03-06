@@ -10,7 +10,19 @@
 
   "block.firstmod.ruby_block": "Ruby Block",
   "block.firstmod.ruby_ore": "Ruby Ore",
+  "block.firstmod.ruby_stairs": "Ruby Stairs",
+  "block.firstmod.ruby_slab": "Ruby Slab",
+  "block.firstmod.ruby_button": "Ruby Button",
+  "block.firstmod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.firstmod.ruby_fence": "Ruby Fence",
+  "block.firstmod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.firstmod.ruby_wall": "Ruby Wall",
+  "block.firstmod.ruby_door": "Ruby Door",
+  "block.firstmod.ruby_trapdoor": "Ruby Trapdoor",
+
   "block.firstmod.sound_block": "Sound Block",
+
+  "structure.firstmod.test_house": "Test House",
 
   "tooltip.firstmod.gems_detector.tooltip": "Find rubies and diamonds.",
   "tooltip.firstmod.fuel_item.tooltip": "Can be used as a fuel in the furnace or blaster.",
