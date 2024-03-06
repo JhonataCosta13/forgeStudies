@@ -26,6 +26,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_RUBY);
         simpleItem(ModItems.RUBY);
         simpleItem(ModItems.GEMS_DETECTOR);
+        simpleItem(ModItems.RANDOM_FILE_FINDER);
 
         simpleBlockItem(ModBlocks.RUBY_DOOR);
 

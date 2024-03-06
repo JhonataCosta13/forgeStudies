@@ -26,6 +26,7 @@
 
   "tooltip.firstmod.gems_detector.tooltip": "Find rubies and diamonds.",
   "tooltip.firstmod.fuel_item.tooltip": "Can be used as a fuel in the furnace or blaster.",
+  "tooltip.firstmod.random_file_item.tooltip": "Find random files",
 
   "tooltip.firstmod.sound_block.tooltip": "Makes sound when right-clicked.",
 
