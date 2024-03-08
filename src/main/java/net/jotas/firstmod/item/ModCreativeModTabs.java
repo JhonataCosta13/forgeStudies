@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.DONUT.get());
                         output.accept(ModItems.GASOLINE.get());
                         output.accept(ModItems.RANDOM_FILE_FINDER.get());
+                        output.accept(ModItems.RUBY_STAFF.get());
 
                         //Add custom block
                         output.accept(ModBlocks.RUBY_BLOCK.get());

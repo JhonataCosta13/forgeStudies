@@ -35,7 +35,10 @@ public class ModItems {
             () -> new GemsDetectorItem(new Item.Properties().durability(100))); //This item can be use 100 times
 
     public static final RegistryObject<Item> RANDOM_FILE_FINDER = ITEMS.register("random_file_finder",
-            () -> new RandomFileFinder(new Item.Properties())); //This item can be use 100 times
+            () -> new RandomFileFinder(new Item.Properties()));
+
+    public static final RegistryObject<Item> RUBY_STAFF = ITEMS.register("ruby_staff",
+            () -> new Item(new Item.Properties().stacksTo(1))); //Number of items you can have in a slot
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
