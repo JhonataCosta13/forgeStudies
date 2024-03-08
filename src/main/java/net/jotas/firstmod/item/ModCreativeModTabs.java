@@ -33,6 +33,10 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.RUBY_AXE.get());
                         output.accept(ModItems.RUBY_SHOVEL.get());
                         output.accept(ModItems.RUBY_HOE.get());
+                        output.accept(ModItems.RUBY_HELMET.get());
+                        output.accept(ModItems.RUBY_CHESTPLATE.get());
+                        output.accept(ModItems.RUBY_LEGGINGS.get());
+                        output.accept(ModItems.RUBY_BOOTS.get());
 
                         //Add custom block
                         output.accept(ModBlocks.RUBY_BLOCK.get());
