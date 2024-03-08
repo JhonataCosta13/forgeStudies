@@ -3,6 +3,7 @@ package net.jotas.firstmod.item;
 import net.jotas.firstmod.FirstMod;
 import net.jotas.firstmod.item.custom.FuelItem;
 import net.jotas.firstmod.item.custom.GemsDetectorItem;
+import net.jotas.firstmod.item.custom.ModArmorItem;
 import net.jotas.firstmod.item.custom.RandomFileFinder;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -52,7 +53,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.RUBY, 1, 2, new Item.Properties()));
 
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
-            () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
             () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
