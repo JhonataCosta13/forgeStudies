@@ -58,10 +58,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider{
                         ModBlocks.RUBY_BLOCK.get());
 
         /*this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.RUBY_ORE.get()).add(ModBlocks.RUBY_BLOCK.get());*/
+                .add(ModBlocks.RUBY_ORE.get());*/
 
         /*this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
-                .add(ModBlocks.RUBY_ORE.get()).add(ModBlocks.RUBY_BLOCK.get());*/
+                .add(ModBlocks.RUBY_ORE.get());*/
+
+        this.tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
+                .add(ModBlocks.SOUND_BLOCK.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.RUBY_FENCE.get());

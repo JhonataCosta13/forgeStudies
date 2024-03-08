@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-06T17:05:25.3459426	Item Models: firstmod
+// 1.20.1	2024-03-07T21:51:49.8953459	Item Models: firstmod
 13e6a65de4d8626687c65eadeb6e8a78f36108d1 assets/firstmod/models/item/coin.json
 4daa8a5150d958bfe94b3d86bdf7b49c73474eeb assets/firstmod/models/item/donut.json
 c32405cd2e2ba32df73c161dc9b4e7567c5515cc assets/firstmod/models/item/gasoline.json
@@ -6,12 +6,17 @@ c32405cd2e2ba32df73c161dc9b4e7567c5515cc assets/firstmod/models/item/gasoline.js
 e16a820756b13f6039febf3ef75ddb204245d641 assets/firstmod/models/item/random_file_finder.json
 63627fd25ed99d5c738e07d3070e22eadc80ae48 assets/firstmod/models/item/raw_ruby.json
 b75485d43cd989d5c5ad160e8c2a780c96dbd30a assets/firstmod/models/item/ruby.json
+679cc5d41907709876be2ad54bf301d46e83a246 assets/firstmod/models/item/ruby_axe.json
 92f2a0b9263ad429c6e5fc7340fb6216605901d9 assets/firstmod/models/item/ruby_button.json
 d2b9db129c29995a512f5d2155787aac33083877 assets/firstmod/models/item/ruby_door.json
 6e88c705ffd431402dca8983e3c258767be004a3 assets/firstmod/models/item/ruby_fence.json
 942f6f52de1c0fd25b2ff61103612cc44ea99bf3 assets/firstmod/models/item/ruby_fence_gate.json
+e3d91a50cc09a0d0f640757849b605f399d51982 assets/firstmod/models/item/ruby_hoe.json
+65d3480ad24aedf11b7376e654375e282230908e assets/firstmod/models/item/ruby_pickaxe.json
 5d5adba037da53892c523bf88836a84778c242ad assets/firstmod/models/item/ruby_pressure_plate.json
+3a8a58eae9f23ec6a489db4fa6ae63757131f1be assets/firstmod/models/item/ruby_shovel.json
 2b39f2c3e3322a6bc7caee9eea8ee865d3978f8d assets/firstmod/models/item/ruby_slab.json
 363e1a378f63b278743465fd08fd7a5cff6975f6 assets/firstmod/models/item/ruby_stairs.json
+50c919087339ad16c29631b71d832e67488fa40e assets/firstmod/models/item/ruby_sword.json
 6978278a0e320317d3b054d33047e6679dbe82da assets/firstmod/models/item/ruby_trapdoor.json
 ac1b351255a8863969641a063669240c0c3ac2fe assets/firstmod/models/item/ruby_wall.json

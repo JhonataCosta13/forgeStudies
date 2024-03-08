@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 public class ModTags {
     public static class Blocks{
         public static final TagKey<Block> GEMS_DETECTOR_VALUABLES = tag("gems_detector_valuables");
+        public static final TagKey<Block> NEEDS_RUBY_TOOL = tag("needs_ruby_tool");
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation(FirstMod.MOD_ID, name));

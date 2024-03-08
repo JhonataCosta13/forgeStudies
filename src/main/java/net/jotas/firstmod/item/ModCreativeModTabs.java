@@ -28,6 +28,11 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.GASOLINE.get());
                         output.accept(ModItems.RANDOM_FILE_FINDER.get());
                         output.accept(ModItems.RUBY_STAFF.get());
+                        output.accept(ModItems.RUBY_SWORD.get());
+                        output.accept(ModItems.RUBY_PICKAXE.get());
+                        output.accept(ModItems.RUBY_AXE.get());
+                        output.accept(ModItems.RUBY_SHOVEL.get());
+                        output.accept(ModItems.RUBY_HOE.get());
 
                         //Add custom block
                         output.accept(ModBlocks.RUBY_BLOCK.get());
