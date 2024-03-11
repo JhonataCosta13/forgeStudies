@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.jotas.firstmod.block.ModBlocks;
 import net.jotas.firstmod.item.ModCreativeModTabs;
 import net.jotas.firstmod.item.ModItems;
+import net.jotas.firstmod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,6 +32,7 @@ public class FirstMod {
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

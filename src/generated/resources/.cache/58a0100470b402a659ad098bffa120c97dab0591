@@ -1,0 +1,5 @@
+// 1.20.1	2024-03-11T20:43:27.5467256	Global Loot Modifiers : firstmod
+d69cf863c847a03891e9d1570c5a92ef62a2717a data/firstmod/loot_modifiers/coin_from_grass.json
+8c73672b7a15988c5883237b007979ff92abbef1 data/firstmod/loot_modifiers/coin_from_mobs.json
+4bb69b399123c23462c447736e9d16b152497a5c data/firstmod/loot_modifiers/ruby_from_temples.json
+defcc8ba7f11a078d31638520b1c1e80b6d29e81 data/forge/loot_modifiers/global_loot_modifiers.json
