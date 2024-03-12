@@ -2,6 +2,7 @@
   "entries": [
     "firstmod:coin_from_grass",
     "firstmod:coin_from_mobs",
+    "firstmod:ruby_from_suspicious_sand",
     "firstmod:ruby_from_temples"
   ],
   "replace": false
