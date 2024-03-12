@@ -1,8 +1,10 @@
 {
   "item.firstmod.coin": "Coin",
   "item.firstmod.ruby": "Ruby",
-
   "item.firstmod.donut": "DONUT",
+  "item.firstmod.gasoline": "Gasoline",
+  "item.firstmod.strawberry_seeds": "Strawberry Seed",
+  "item.firstmod.strawberry": "Strawberry",
 
   "item.firstmod.gems_detector": "Gems Detector",
   "item.firstmod.ruby_staff": "Ruby Staff",
@@ -18,7 +20,7 @@
   "item.firstmod.ruby_leggings": "Ruby Leggings",
   "item.firstmod.ruby_boots": "Ruby Boots",
 
-  "item.firstmod.gasoline": "Gasoline",
+
 
   "block.firstmod.ruby_block": "Ruby Block",
   "block.firstmod.ruby_ore": "Ruby Ore",

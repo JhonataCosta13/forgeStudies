@@ -2,6 +2,7 @@ package net.jotas.firstmod.block;
 
 import net.jotas.firstmod.FirstMod;
 import net.jotas.firstmod.block.custom.SoundBlock;
+import net.jotas.firstmod.block.custom.StrawberryCropBlock;
 import net.jotas.firstmod.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -55,6 +56,10 @@ public class ModBlocks {
     //Custom block classes
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    //Custom crops
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

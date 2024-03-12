@@ -50,6 +50,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RUBY);
         simpleItem(ModItems.GEMS_DETECTOR);
         simpleItem(ModItems.RANDOM_FILE_FINDER);
+        simpleItem(ModItems.STRAWBERRY);
+        simpleItem(ModItems.STRAWBERRY_SEEDS);
 
         simpleBlockItem(ModBlocks.RUBY_DOOR);
 

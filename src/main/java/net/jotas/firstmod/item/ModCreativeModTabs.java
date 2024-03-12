@@ -37,6 +37,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.RUBY_CHESTPLATE.get());
                         output.accept(ModItems.RUBY_LEGGINGS.get());
                         output.accept(ModItems.RUBY_BOOTS.get());
+                        output.accept(ModItems.STRAWBERRY_SEEDS.get());
+                        output.accept(ModItems.STRAWBERRY.get());
 
                         //Add custom block
                         output.accept(ModBlocks.RUBY_BLOCK.get());

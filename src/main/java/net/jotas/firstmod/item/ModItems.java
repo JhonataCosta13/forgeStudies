@@ -1,6 +1,7 @@
 package net.jotas.firstmod.item;
 
 import net.jotas.firstmod.FirstMod;
+import net.jotas.firstmod.block.ModBlocks;
 import net.jotas.firstmod.item.custom.FuelItem;
 import net.jotas.firstmod.item.custom.GemsDetectorItem;
 import net.jotas.firstmod.item.custom.ModArmorItem;
@@ -23,9 +24,12 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
             () -> new Item(new Item.Properties()));
 
+
     //Food Items
     public static final RegistryObject<Item> DONUT = ITEMS.register("donut",
             () -> new Item(new Item.Properties().food(ModFoods.DONUT)));
+    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
 
     //Fuel Items
     public static final RegistryObject<Item> GASOLINE = ITEMS.register("gasoline",
@@ -60,6 +64,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
             () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

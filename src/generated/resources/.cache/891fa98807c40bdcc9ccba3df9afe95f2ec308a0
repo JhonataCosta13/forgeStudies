@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-08T14:43:39.7072789	Item Models: firstmod
+// 1.20.1	2024-03-12T14:38:08.9493378	Item Models: firstmod
 13e6a65de4d8626687c65eadeb6e8a78f36108d1 assets/firstmod/models/item/coin.json
 4daa8a5150d958bfe94b3d86bdf7b49c73474eeb assets/firstmod/models/item/donut.json
 c32405cd2e2ba32df73c161dc9b4e7567c5515cc assets/firstmod/models/item/gasoline.json
@@ -64,3 +64,5 @@ a4373d5e7e79340d0770328ae0b7999ed1e13c0c assets/firstmod/models/item/ruby_leggin
 50c919087339ad16c29631b71d832e67488fa40e assets/firstmod/models/item/ruby_sword.json
 6978278a0e320317d3b054d33047e6679dbe82da assets/firstmod/models/item/ruby_trapdoor.json
 ac1b351255a8863969641a063669240c0c3ac2fe assets/firstmod/models/item/ruby_wall.json
+5d3d402ae799df9cac9a81d5df583ba71d4fdb53 assets/firstmod/models/item/strawberry.json
+8369131a4e99433ea3d0183c5ae3fb3b00a29853 assets/firstmod/models/item/strawberry_seeds.json
